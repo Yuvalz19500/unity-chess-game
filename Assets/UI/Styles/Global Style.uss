@@ -1,0 +1,63 @@
+.header-wrapper {
+    margin-bottom: 30px;
+}
+
+.header {
+    font-size: 209%;
+    -unity-font: url('project://database/Assets/Fonts/Typography%20Times%20Regular.ttf?fileID=12800000&guid=b48d710186ceeab4ab7d8f9d29e90a3e&type=3#Typography Times Regular');
+    color: rgb(255, 255, 255);
+    -unity-font-style: normal;
+    -unity-font-definition: none;
+    -unity-text-align: middle-center;
+}
+
+.screen {
+    flex-grow: 1;
+}
+
+.buttons-wrapper {
+    flex-grow: 1;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-button {
+    background-color: rgba(88, 88, 88, 0);
+    font-size: 190%;
+    color: rgb(255, 255, 255);
+    border-left-width: 5px;
+    border-right-width: 5px;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left-color: rgb(113, 113, 113);
+    border-right-color: rgb(113, 113, 113);
+    border-top-color: rgb(113, 113, 113);
+    border-bottom-color: rgb(113, 113, 113);
+    -unity-font: url('project://database/Assets/Fonts/Typography%20Times%20Regular.ttf?fileID=12800000&guid=b48d710186ceeab4ab7d8f9d29e90a3e&type=3#Typography Times Regular');
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -unity-font-definition: url('project://database/Assets/Fonts/Font%20Assets/Typography%20Times%20Regular%20SDF.asset?fileID=11400000&guid=c4a8689959b6b974c8e39c0a9ab35d15&type=2#Typography Times Regular SDF');
+    width: 100%;
+}
+
+.menu-button:hover {
+    border-left-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+}
+
+.menu-button:active {
+    background-color: rgb(255, 255, 255);
+}

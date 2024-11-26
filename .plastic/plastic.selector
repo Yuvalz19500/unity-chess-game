@@ -1,0 +1,4 @@
+repository "Chess Game@Yuval_Zarfati@cloud"
+  path "/"
+    br "/main"
+    co "/main"

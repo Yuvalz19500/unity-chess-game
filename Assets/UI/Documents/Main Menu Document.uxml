@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Main%20Menu%20Style.uss?fileID=7433441132597879392&amp;guid=285208902049c7d4b8eb0cf5944aa1d1&amp;type=3#Main Menu Style" />
+    <Style src="project://database/Assets/UI/Styles/Global%20Style.uss?fileID=7433441132597879392&amp;guid=c064afdc227b66a498283ed38e30a694&amp;type=3#Global Style" />
+    <ui:VisualElement name="screen" class="screen" style="flex-grow: 1;">
+        <ui:VisualElement name="main-menu-wrapper" class="main-menu-wrapper" style="width: 30%; flex-grow: 1; background-color: rgba(0, 0, 0, 0.67); padding-left: 20px; padding-right: 20px; padding-top: 50px; padding-bottom: 20px; align-items: center; justify-content: flex-start;">
+            <ui:VisualElement name="header-wrapper" class="header-wrapper" style="justify-content: center; align-items: center;">
+                <ui:Label text="Chess Game" display-tooltip-when-elided="true" name="game-title" class="header" style="font-size: 40%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="buttons-wrapper" class="buttons-wrapper" style="justify-content: center; align-items: center;">
+                <ui:Button text="Start Game" display-tooltip-when-elided="true" name="start-button" class="menu-button" />
+                <ui:Button text="Quit Game" display-tooltip-when-elided="true" name="quit-button" class="menu-button" />
+            </ui:VisualElement>
+            <ui:Label text="Made By Yuval Zarfati" display-tooltip-when-elided="true" name="made-by-text" style="font-size: 15%; background-color: rgba(255, 255, 255, 0); color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

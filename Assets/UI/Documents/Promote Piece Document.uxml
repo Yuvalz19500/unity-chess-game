@@ -1,0 +1,37 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Promote%20Piece%20Style.uss?fileID=7433441132597879392&amp;guid=f69aec0097aa50c4ba04312482e3c1e4&amp;type=3#Promote Piece Style" />
+    <Style src="project://database/Assets/UI/Styles/Global%20Style.uss?fileID=7433441132597879392&amp;guid=c064afdc227b66a498283ed38e30a694&amp;type=3#Global Style" />
+    <ui:VisualElement name="screen" class="screen" style="align-items: center; justify-content: center;">
+        <ui:VisualElement name="overlay" class="overlay" style="align-items: center; flex-direction: column; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px;">
+            <ui:VisualElement name="header-wrapper" class="header-wrapper" style="flex-grow: 0; flex-direction: column; display: flex; visibility: visible; overflow: visible;">
+                <ui:Label text="Promote Pawn To:" display-tooltip-when-elided="true" name="header" class="header" style="font-size: 50%; color: rgb(0, 0, 0);" />
+            </ui:VisualElement>
+            <ui:VisualElement name="buttons-wrapper" style="width: 100%; flex-grow: 1; flex-direction: row; padding-left: 0; padding-right: 0; padding-top: 20px; padding-bottom: 20px; justify-content: center; align-items: stretch;">
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="knight-button" class="piece-button" style="justify-content: space-between; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; align-items: center;">
+                    <ui:VisualElement name="piece-button-image" class="piece-button-image" style="width: 50%; height: 50%;" />
+                    <ui:VisualElement name="piece-button-label-wrapper" style="justify-content: center; align-items: center;">
+                        <ui:Label text="Knight" display-tooltip-when-elided="true" name="piece-button-label" style="-unity-font: url(&apos;project://database/Assets/Fonts/Typography%20Times%20Regular.ttf?fileID=12800000&amp;guid=b48d710186ceeab4ab7d8f9d29e90a3e&amp;type=3#Typography Times Regular&apos;); font-size: 20%; color: rgb(0, 0, 0);" />
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="bishop-button" class="piece-button" style="justify-content: space-between; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; align-items: center;">
+                    <ui:VisualElement name="piece-button-image" class="piece-button-image" style="background-image: url(&apos;project://database/Assets/UI/Assets/Bishop.png?fileID=2800000&amp;guid=fd2357d4631dc0b41af05060758b784b&amp;type=3#Bishop&apos;); width: 50%; height: 50%; align-items: center; justify-content: center;" />
+                    <ui:VisualElement name="piece-button-label-wrapper" style="justify-content: center; align-items: center;">
+                        <ui:Label text="Bishop" display-tooltip-when-elided="true" name="piece-button-label" style="-unity-font: url(&apos;project://database/Assets/Fonts/Typography%20Times%20Regular.ttf?fileID=12800000&amp;guid=b48d710186ceeab4ab7d8f9d29e90a3e&amp;type=3#Typography Times Regular&apos;); font-size: 20%; color: rgb(0, 0, 0);" />
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="rook-button" class="piece-button" style="justify-content: space-between; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; align-items: center;">
+                    <ui:VisualElement name="piece-button-image" style="background-image: url(&apos;project://database/Assets/UI/Assets/Rook.png?fileID=2800000&amp;guid=a82cd2553aca8074eab6e00d3404fabd&amp;type=3#Rook&apos;); width: 50%; height: 50%; align-items: center; justify-content: center;" />
+                    <ui:VisualElement name="piece-button-label-wrapper" style="justify-content: center; align-items: center;">
+                        <ui:Label text="Rook" display-tooltip-when-elided="true" name="piece-button-label" style="-unity-font: url(&apos;project://database/Assets/Fonts/Typography%20Times%20Regular.ttf?fileID=12800000&amp;guid=b48d710186ceeab4ab7d8f9d29e90a3e&amp;type=3#Typography Times Regular&apos;); font-size: 20%; color: rgb(0, 0, 0);" />
+                    </ui:VisualElement>
+                </ui:Button>
+                <ui:Button text="&#10;" display-tooltip-when-elided="true" name="queen-button" class="piece-button" style="justify-content: space-between; padding-left: 20px; padding-right: 20px; padding-top: 20px; padding-bottom: 20px; align-items: center;">
+                    <ui:VisualElement name="piece-button-image" style="background-image: url(&apos;project://database/Assets/UI/Assets/Queen.png?fileID=2800000&amp;guid=78e4697ba36869b47b6721e3ee4a6031&amp;type=3#Queen&apos;); width: 50%; height: 50%; align-items: center; justify-content: center;" />
+                    <ui:VisualElement name="piece-button-label-wrapper" style="justify-content: center; align-items: center;">
+                        <ui:Label text="Queen" display-tooltip-when-elided="true" name="piece-button-label" style="-unity-font: url(&apos;project://database/Assets/Fonts/Typography%20Times%20Regular.ttf?fileID=12800000&amp;guid=b48d710186ceeab4ab7d8f9d29e90a3e&amp;type=3#Typography Times Regular&apos;); font-size: 20%; color: rgb(0, 0, 0);" />
+                    </ui:VisualElement>
+                </ui:Button>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

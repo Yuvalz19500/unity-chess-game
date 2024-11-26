@@ -1,0 +1,15 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Styles/Global%20Style.uss?fileID=7433441132597879392&amp;guid=c064afdc227b66a498283ed38e30a694&amp;type=3#Global Style" />
+    <Style src="project://database/Assets/UI/Styles/Game%20Over%20Style.uss?fileID=7433441132597879392&amp;guid=70a6b8a6cc2e43b4f828ef0a637ea99d&amp;type=3#Game Over Style" />
+    <ui:VisualElement name="screen" class="screen">
+        <ui:VisualElement name="game-over-wrapper" class="game-over-wrapper">
+            <ui:VisualElement name="header-wrapper" class="header-wrapper">
+                <ui:Label text="White Player Wins" display-tooltip-when-elided="true" name="winning-title" class="header" style="white-space: normal;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="buttons-wrapper" class="buttons-wrapper" style="justify-content: flex-end;">
+                <ui:Button text="Play Again" display-tooltip-when-elided="true" name="play-again-button" class="menu-button" />
+                <ui:Button text="Back To Menu" display-tooltip-when-elided="true" name="main-menu-button" class="menu-button" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
