@@ -54,10 +54,6 @@ You can also play the game on Itch.io: [1v1 Chess Game](https://yuvalz19500.itch
 
 The original repository is hosted on PlasticSCM. This is just a copy to showcase the project.
 
-## Contact
-
-For any inquiries, please contact Yuval Zarfati at [your-email@example.com].
-
 ---
 
 Thank you for checking out my Chess Game project! I hope you enjoy playing it as much as I enjoyed developing it.
