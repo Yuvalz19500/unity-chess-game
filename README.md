@@ -28,15 +28,17 @@ To clone the project and open it with Unity, you need to download the following 
 
 ### Main Menu
 
-![Main Menu](https://i.postimg.cc/3x3QzSGq/main-menu.png)
+![image](https://github.com/user-attachments/assets/c136fb46-e180-4b46-ab68-5abf4f07a3d1)
 
 ### In-Game
 
-![In-Game](https://i.postimg.cc/4x3QzSGq/in-game.png)
+![image](https://github.com/user-attachments/assets/95917508-6ed6-4664-be4a-ca6514cc2f26)
+
+![image](https://github.com/user-attachments/assets/ca3e8bac-54cb-4386-9c6c-3de3a0be021b)
 
 ### Game Over Screen
 
-![Game Over Screen](https://i.postimg.cc/5x3QzSGq/game-over.png)
+![image](https://github.com/user-attachments/assets/0620420f-8db3-4430-9303-f0288fad60e3)
 
 ## How to Play
 
